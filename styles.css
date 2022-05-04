@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+
+:root {
+  --soft-blue: hsl(215, 51%, 70%);
+  --cyan: hsl(178, 100%, 50%);
+  --white: hsl(0, 0%, 100%);
+  --very-dark-blue-main-bg: hsl(217, 54%, 11%);
+  --very-dark-blue-card-bg: hsl(216, 50%, 16%);
+  --very-dark-blue-line: hsl(215, 32%, 27%);
+  --white: hsl(0, 0%, 100%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 33px;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+body {
+  background-color: var(--very-dark-blue-main-bg);
+  display: flex;
+  justify-content: center;
+  margin-top: 82px;
+  font-size: 18px;
+  font-family: "Outfit";
+  color: var(--white);
+}
+
+.container {
+  width: 295px;
+  height: 520px;
+  display: flex;
+  border-radius: 0.9em;
+  background-color: var(--very-dark-blue-card-bg);
+  flex-direction: column;
+  align-items: stretch;
+  padding: 22px;
+  box-shadow: 0px 23px 0px 13px hsl(217, 57%, 10%),
+    0px 25px 0px 40px hsl(218, 54%, 11%);
+}
+
+img {
+  width: 100%;
+  border-radius: 0.5em;
+}
+
+.napis1 {
+  font-weight: 600;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.napis2 {
+  font-weight: 300;
+  color: var(--soft-blue);
+}
+
+.napis3 {
+  color: var(--cyan);
+  font-size: 13px;
+  font-weight: 600;
+  padding-left: 6px;
+}
+
+.napis4 {
+  color: var(--soft-blue);
+  font-size: 14px;
+  font-weight: 400;
+  padding-left: 6px;
+}
+
+.container2 {
+  display: flex;
+  flex-direction: row;
+  margin-top: 5px;
+}
+
+.img2 {
+  background-image: url(/images/icon-ethereum.svg);
+  background-repeat: no-repeat;
+  width: 11px;
+  height: 18px;
+}
+
+.img3 {
+  background-image: url(/images/icon-clock.svg);
+  background-repeat: no-repeat;
+  width: 12px;
+  height: 12px;
+  margin-left: 122px;
+}
+
+.container3 {
+  border-top: solid var(--soft-blue) 0.01em;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+
+#autor {
+  width: 28px;
+  height: 28px;
+  border: white solid 1px;
+  border-radius: 2em;
+  margin-top: 12px;
+}
+
+.napis5 {
+  margin-top: 6px;
+  margin-left: 15px;
+  font-size: 13px;
+  color: var(--soft-blue);
+}
+
+.napis6 {
+  color: var(--white);
+  font-weight: 600;
+}
