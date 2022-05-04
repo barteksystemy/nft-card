@@ -80,14 +80,14 @@ img {
 }
 
 .img2 {
-  background-image: url(https://barteksystemy.github.io/nft-card/images/icon-ethereum.svg);
+  background-image: url(./images/icon-ethereum.svg);
   background-repeat: no-repeat;
   width: 11px;
   height: 18px;
 }
 
 .img3 {
-  background-image: url(https://barteksystemy.github.io/nft-card/images/icon-clock.svg);
+  background-image: url(./images/icon-clock.svg);
   background-repeat: no-repeat;
   width: 16px;
   height: 16px;
